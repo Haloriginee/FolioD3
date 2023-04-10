@@ -7,6 +7,7 @@ import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState(" ");
+  const [toggle, setToggle] = useState(false);
 
 
   return (
@@ -28,8 +29,8 @@ const Navbar = () => {
             alt="logo"
             className="w-12 h-12 object-contain"
           />
-          <p className='text-white font-bold cursor-pointer text-[18px]'>
-            Hang Kévin
+          <p className='flex text-white font-bold cursor-pointer text-[18px]'>
+            Hang Kévin &nbsp;
             <span className='sm:block hidden'>
               | Phôking Hangsome
             </span>
@@ -51,6 +52,37 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className='flex flex-1 justify-end items-center sm:hidden'>
+          <img
+            className='cursor-pointer object-contain w-[28px] h-[28px]'
+            src={toggle ? close : menu}
+            alt="mobile nav"
+            onClick={() => setToggle(!toggle)}
+          />
+
+          <div className={`p-6 ${!toggle ? 'hidden' : 'flex'} absolute top-20 right-0 my-2 mx-4 rounded-xl min-w-[140px] z-10 black-gradient`}>
+            <ul className='list-none flex flex-col items-start justify-end gap-4'>
+              {NavLinks.map((Link) => (
+                <li key={Link.id} className={`${
+                  active === Link.title
+                    ? "text-white"
+                    : "text-secondary"
+                }
+                  cursor-pointer text-[16px] font-medium font-poppins
+              `}
+                  onClick={() =>{
+                    setToggle(!toggle);
+                    setActive(Link.title);
+                  }}
+                >
+                  <a href={`#${Link.id}`}>{Link.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+        </div>
       </div>
     </nav>
   )
