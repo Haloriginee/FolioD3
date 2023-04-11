@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import CanvasLoader from '../Loader';
 import { OrbitControls, useGLTF, Preload } from '@react-three/drei';
 
-const Model3D = () => {
+const Model3D = ({ isMobile }) => {
 
   const model3D = useGLTF('./desktop_pc/scene.gltf');
 
@@ -22,14 +22,36 @@ const Model3D = () => {
       />
       <primitive
         object={model3D.scene}
-        scale={116}
-        position={[0, -4.25, -5.75]}
+        scale={isMobile ? 65 : 116}
+        position={isMobile ? [0, -3.2, -2.2] : [0, -4.25, -5.75]}
       />
     </mesh>
   )
 }
 
 const Model3DCanvas = () => {
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+
+    const MedQuery = window.matchMedia('(max-width: 500px)');
+    setIsMobile(MedQuery.matches);
+
+    const handleMediaQueryChange = (e) => {
+      setIsMobile(e.matches);
+    }
+
+    MedQuery.addEventListener('change', handleMediaQueryChange);
+
+    return () => {
+
+      MedQuery.removeEventListener('change', handleMediaQueryChange);
+
+    }
+
+  },[])
+
   return (
     <Canvas
       frameloop="demand"
@@ -44,7 +66,7 @@ const Model3DCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
 
-        <Model3D />
+        <Model3D isMobile={isMobile} />
 
       </Suspense>
 
