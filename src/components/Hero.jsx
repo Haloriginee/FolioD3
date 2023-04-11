@@ -23,7 +23,25 @@ const Hero = () => {
           </p>
         </div>
       </div>
+
         <Model3DCanvas />
+
+        <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+          <a href="#about">
+            <div className="flex justify-center items-start p-2 border-secondary border-4 w-[35px] h-[64px] rounded-3xl">
+              <motion.div
+                className="w-3 h-3 bg-secondary mb-1 rounded-full"
+                animate={{ y: [0, 24, 0] }}
+                transition={{
+                  duration: 1.5, repeat: Infinity,
+                  repeatType: "loop"
+                }}
+
+              />
+            </div>
+          </a>
+        </div>
+
     </section>
 
   )
