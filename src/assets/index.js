@@ -1,8 +1,8 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import water from "./water.png";
+import fire from "./fire.png";
+import thunder from "./thunder.png";
+import earth from "./earth.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -22,10 +22,10 @@ import threejs from "./tech/threejs.svg";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  water,
+  fire,
+  thunder,
+  earth,
   github,
   menu,
   close,

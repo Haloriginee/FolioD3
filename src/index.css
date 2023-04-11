@@ -42,3 +42,9 @@
     rgba(60, 51, 80, 0) 100%
   );
 }
+
+.red-white-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #F1EFE5 1.9%, #780206 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #F1EFE5 1.9%, #780206 97.5%);
+}
