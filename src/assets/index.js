@@ -12,6 +12,7 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import ruby from "./tech/ruby.jpg"
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -34,6 +35,7 @@ export {
   git,
   html,
   javascript,
+  ruby,
   mongodb,
   nodejs,
   reactjs,
