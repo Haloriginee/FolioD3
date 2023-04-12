@@ -1,3 +1,5 @@
+// Navbar
+
 export const NavLinks = [
   {
     id: "about",
@@ -12,6 +14,8 @@ export const NavLinks = [
     title: "Contact",
   },
 ];
+
+// img
 
 import {
   water,
@@ -31,7 +35,12 @@ import {
   git,
   figma,
   threejs,
+  foliov2,
+  movie2,
+  musics2,
 } from "../assets";
+
+// About
 
 export const services = [
   {
@@ -51,6 +60,8 @@ export const services = [
     icon: water,
   },
 ];
+
+// Tech
 
  export const technologies = [
   {
@@ -104,5 +115,76 @@ export const services = [
   {
     name: "figma",
     icon: figma,
+  },
+];
+
+// Work
+
+export const projects = [
+  {
+    name: "3D project",
+    description:
+      "Involving basic concepts such as setting up a scene, adding lighting and textures, and applying basic animations. This project was made to to explore the world of 3D graphics and create something new and visually appealing. With Three.js, you can bring your ideas to life in a whole new dimension.",
+    tags: [
+      {
+        name: "react",
+        color: "red-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: foliov2,
+    source_code: "https://github.com/Haloriginee/FolioV2",
+    link: "https://hkfoliov2.netlify.app/"
+  },
+  {
+    name: "NhaQueMovie",
+    description:
+      "Get ready to binge-watch your heart out with our Netflix clone! It's like having a never-ending buffet of movies and TV shows at your fingertips. With personalized recommendations, multi-user profiles, and a massive library of titles, you'll never run out of options.",
+    tags: [
+      {
+        name: "react",
+        color: "red-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: movie2,
+    source_code: "https://github.com/Haloriginee/NhaQueMovieV2",
+    link: "https://nhaquemoviev2.netlify.app/"
+  },
+  {
+    name: "NhaQueMusics",
+    description:
+      "Get ready to jam out with our Spotify clone! It's like having a personal DJ in your pocket. With millions of songs at your fingertips, you can listen to all your favorites and discover new music to love. Our playlists are so good, you'll wonder how you ever lived without them.",
+    tags: [
+      {
+        name: "tailwind",
+        color: "red-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: musics2,
+    source_code: "https://github.com/Haloriginee/NhaQueMusicsV2",
+    link: "https://nhaquemusics-v2.netlify.app/"
   },
 ];

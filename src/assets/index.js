@@ -4,8 +4,12 @@ import fire from "./fire.png";
 import thunder from "./thunder.png";
 import earth from "./earth.png";
 import github from "./github.png";
+import arrow from "./arrow.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import movie2 from "./movie2.png"
+import musics2 from "./musics2.png"
+import foliov2 from "./foliov2.png"
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -28,6 +32,7 @@ export {
   thunder,
   earth,
   github,
+  arrow,
   menu,
   close,
   css,
@@ -42,5 +47,9 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs
+  threejs,
+  movie2,
+  musics2,
+  foliov2,
+
 };
