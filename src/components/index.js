@@ -1,4 +1,4 @@
-import { EarthCanvas, BallCanvas, Model3DCanvas, StarsCanvas } from './canvas';
+import { ShieldCanvas, BallCanvas, Model3DCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -14,7 +14,7 @@ export {
   Tech,
   Works,
   Contact,
-  EarthCanvas,
+  ShieldCanvas,
   BallCanvas,
   Model3DCanvas,
   StarsCanvas,

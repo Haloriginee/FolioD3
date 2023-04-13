@@ -1,0 +1,11 @@
+Model Information:
+* title:	Captain America's Shield
+* source:	https://sketchfab.com/3d-models/captain-americas-shield-7e55d05227034f0bb152e2040c51589d
+* author:	Brendan Vermeltfoort (https://sketchfab.com/addict)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Captain America's Shield" (https://sketchfab.com/3d-models/captain-americas-shield-7e55d05227034f0bb152e2040c51589d) by Brendan Vermeltfoort (https://sketchfab.com/addict) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
