@@ -38,6 +38,9 @@ import {
   foliov2,
   movie2,
   musics2,
+  hulk,
+  bpanthere,
+  hawkeye
 } from "../assets";
 
 // About
@@ -186,5 +189,34 @@ export const projects = [
     image: musics2,
     source_code: "https://github.com/Haloriginee/NhaQueMusicsV2",
     link: "https://nhaquemusics-v2.netlify.app/"
+  },
+];
+
+// Feedbacks
+
+export const nofriends = [
+  {
+    nofriend:
+    "Listen up, puny human! You are stronger than you think. Don't give up now, keep fighting! Embrace your inner Hulk and smash through any obstacle in your way!",
+    name: "Hulk",
+    designation: "Strongest Avenger",
+    company: "Avenger",
+    image: hulk,
+  },
+  {
+    nofriend:
+    "Be strong, be brave, and be true to yourself. You have the heart of a warrior, and the spirit of a panther. Let nothing stand in your way, and let your light shine bright for all to see.",
+    name: "Black Panthere",
+    designation: "King of Wakanda",
+    company: "Avenger",
+    image: bpanthere,
+  },
+  {
+    nofriend:
+    "Alright, listen up. It's time to focus, aim true, and hit your mark. You're capable of more than you realize, so let's show 'em what we're made of. And remember, there's always another shot.",
+    name: "Hawkeye",
+    designation: "Real Avenger",
+    company: "Avenger",
+    image: hawkeye,
   },
 ];

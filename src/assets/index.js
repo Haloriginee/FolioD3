@@ -10,6 +10,9 @@ import close from "./close.svg";
 import movie2 from "./movie2.png"
 import musics2 from "./musics2.png"
 import foliov2 from "./foliov2.png"
+import hulk from "./hulk.jpg";
+import bpanthere from "./bpanthere.png";
+import hawkeye from "./hawkeye.jpg";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -51,5 +54,7 @@ export {
   movie2,
   musics2,
   foliov2,
-
+  hulk,
+  bpanthere,
+  hawkeye
 };
