@@ -13,6 +13,7 @@ import foliov2 from "./foliov2.png"
 import hulk from "./hulk.jpg";
 import bpanthere from "./bpanthere.png";
 import hawkeye from "./hawkeye.jpg";
+import panda from "./panda.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -56,5 +57,6 @@ export {
   foliov2,
   hulk,
   bpanthere,
-  hawkeye
+  hawkeye,
+  panda
 };

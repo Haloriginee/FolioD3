@@ -40,7 +40,8 @@ import {
   musics2,
   hulk,
   bpanthere,
-  hawkeye
+  hawkeye,
+  panda,
 } from "../assets";
 
 // About
@@ -169,7 +170,7 @@ export const projects = [
     link: "https://nhaquemoviev2.netlify.app/"
   },
   {
-    name: "NhaQueMusics",
+    name: "NhaQueMusic",
     description:
       "Get ready to jam out with our Spotify clone! It's like having a personal DJ in your pocket. With millions of songs at your fingertips, you can listen to all your favorites and discover new music to love. Our playlists are so good, you'll wonder how you ever lived without them.",
     tags: [
@@ -189,6 +190,28 @@ export const projects = [
     image: musics2,
     source_code: "https://github.com/Haloriginee/NhaQueMusicsV2",
     link: "https://nhaquemusics-v2.netlify.app/"
+  },
+  {
+    name: "IMGen",
+    description:
+    "Unleash your imagination with our AI image generator! From surreal landscapes to funky patterns, our app generates unique and vibrant images that will blow your mind. Get ready to explore a world of endless possibilities and let our AI take your creativity to the next level.",
+    tags: [
+      {
+        name: "express",
+        color: "red-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: panda,
+    source_code: "https://github.com/Haloriginee/IMGen",
+    link: "https://imgene.netlify.app/"
   },
 ];
 
