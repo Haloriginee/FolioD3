@@ -14,6 +14,7 @@ import hulk from "./hulk.jpg";
 import bpanthere from "./bpanthere.png";
 import hawkeye from "./hawkeye.jpg";
 import panda from "./panda.png";
+import car from "./car.png"
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -58,5 +59,6 @@ export {
   hulk,
   bpanthere,
   hawkeye,
-  panda
+  panda,
+  car
 };

@@ -42,6 +42,7 @@ import {
   bpanthere,
   hawkeye,
   panda,
+  car,
 } from "../assets";
 
 // About
@@ -212,6 +213,28 @@ export const projects = [
     image: panda,
     source_code: "https://github.com/Haloriginee/IMGen",
     link: "https://imgene.netlify.app/"
+  },
+  {
+    name: "Vroom-Vroom",
+    description:
+    "Get ready to take your car customization game to the next level with our cutting-edge AI-powered web-app!  With just a few clicks, you can transform your ride from a plain jane to a head-turning masterpiece. Let our AI be your co-pilot as you transform your car into a work of art.",
+    tags: [
+      {
+        name: "express",
+        color: "red-text-gradient",
+      },
+      {
+        name: "openai api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: car,
+    source_code: "https://github.com/Haloriginee/Vroom-Vroom",
+    link: "https://cusawroad.netlify.app/"
   },
 ];
 
