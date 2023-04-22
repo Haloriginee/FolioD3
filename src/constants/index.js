@@ -220,7 +220,7 @@ export const projects = [
     "Get ready to take your car customization game to the next level with our cutting-edge AI-powered web-app!  With just a few clicks, you can transform your ride from a plain jane to a head-turning masterpiece. Let our AI be your co-pilot as you transform your car into a work of art.",
     tags: [
       {
-        name: "express",
+        name: "nodejs",
         color: "red-text-gradient",
       },
       {
@@ -228,7 +228,7 @@ export const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "threejs",
         color: "yellow-text-gradient",
       },
     ],
