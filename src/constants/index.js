@@ -43,6 +43,7 @@ import {
   hawkeye,
   panda,
   car,
+  carrent,
 } from "../assets";
 
 // About
@@ -53,15 +54,15 @@ export const services = [
     icon: fire,
   },
   {
-    title: "Frontend Developer",
+    title: "MERN Developer",
     icon: earth,
   },
   {
-    title: "Backend Developer",
+    title: "Nextjs Developer",
     icon: thunder,
   },
   {
-    title: "Content Creator",
+    title: "Threejs Developer",
     icon: water,
   },
 ];
@@ -235,6 +236,28 @@ export const projects = [
     image: car,
     source_code: "https://github.com/Haloriginee/Vroom-Vroom",
     link: "https://cusawroad.netlify.app/"
+  },
+  {
+    name: "HypeWheels",
+    description:
+    "Rev up your adventure with our car renting app! Buckle up and choose from a fleet of wheels that'll make your heart race. Whether you're cruising for a day or embarking on a road trip, we've got the keys to your dream ride. Hit the road to experience the thrill of ultimate freedom on four wheels!",
+    tags: [
+      {
+        name: "nextjs",
+        color: "red-text-gradient",
+      },
+      {
+        name: "typescrypt",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code: "https://github.com/Haloriginee/HypeWheels",
+    link: "https://hypewheels.netlify.app/"
   },
 ];
 

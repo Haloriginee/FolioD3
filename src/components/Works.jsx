@@ -102,6 +102,17 @@ const Works = () => {
         ))}
       </div>
 
+      <div className='flex justify-center'>
+        <button
+          className="mt-10 bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-indigo-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          onClick={() => window.open("https://github.com/Haloriginee", "_blank")}
+        >
+          More Projects On Github
+        </button>
+      </div>
+
+
+
     </>
 
   )
