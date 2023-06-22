@@ -15,7 +15,8 @@ import bpanthere from "./bpanthere.png";
 import hawkeye from "./hawkeye.jpg";
 import panda from "./panda.png";
 import car from "./car.png";
-import carrent from "./carrent.png"
+import carrent from "./carrent.png";
+import game1 from "./game1.png"
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -62,5 +63,6 @@ export {
   hawkeye,
   panda,
   car,
-  carrent
+  carrent,
+  game1
 };

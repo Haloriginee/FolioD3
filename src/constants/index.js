@@ -44,6 +44,7 @@ import {
   panda,
   car,
   carrent,
+  game1,
 } from "../assets";
 
 // About
@@ -127,28 +128,6 @@ export const services = [
 // Work
 
 export const projects = [
-  {
-    name: "3D project",
-    description:
-      "Involving basic concepts such as setting up a scene, adding lighting and textures, and applying basic animations. This project was made to to explore the world of 3D graphics and create something new and visually appealing. With Three.js, you can bring your ideas to life in a whole new dimension.",
-    tags: [
-      {
-        name: "react",
-        color: "red-text-gradient",
-      },
-      {
-        name: "three.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: foliov2,
-    source_code: "https://github.com/Haloriginee/FolioV2",
-    link: "https://hkfoliov2.netlify.app/"
-  },
   {
     name: "NhaQueMovie",
     description:
@@ -258,6 +237,28 @@ export const projects = [
     image: carrent,
     source_code: "https://github.com/Haloriginee/HypeWheels",
     link: "https://hypewheels.netlify.app/"
+  },
+  {
+    name: "Fake & Famous",
+    description:
+    "Prepare to unleash your inner speed demon! Step into the driver's seat of sleek, futuristic cars and race in a neon-infused world. Feel the rush as you navigate gravity-defying loops, blazing straightaways, and treacherous twists, all while leaving a trail of dazzling light in your wake.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "red-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "game",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: game1,
+    source_code: "https://github.com/Haloriginee/3D-Game",
+    link: "https://gamepholife.netlify.app/"
   },
 ];
 
